@@ -1,0 +1,188 @@
+@font-face
+{
+    font-family: gobold;
+    src: url("./fonts/GoboldThin.ttf");
+}
+
+@font-face
+{
+    font-family: xoxo;
+    src: url("./fonts/xoxo.ttf");
+}
+
+*
+{
+    margin: 0;
+    font-family: gobold;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+h3 
+{
+    font-family: xoxo;
+    font-size: 60px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.primary
+{
+    background-color: white;
+    color: #9BA29A;
+}
+
+.secondary
+{
+    background-color: #ADC2AA;
+    color: white;
+}
+
+.section
+{
+    padding: 30px 0;
+}
+
+.content-width
+{
+    width:1050px; 
+    margin: auto;
+}
+
+/* stars */
+
+.star
+{
+    width: 20px;
+    height: 21px;
+}
+
+.green-star
+{
+    background-image: url("./images/Stars_green.png");
+}
+
+/* navigation */
+nav a
+{
+    float: left;
+    color: #9BA29A;
+}
+
+nav div
+{
+    float: left;
+}
+
+nav ul li
+{
+    float: left;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.logo
+{
+    background-image: url("./images/logo.png");
+    width: 372px;
+    height: 132px;
+    display: block;
+}
+
+/* who am I */
+
+.qualities 
+{
+    background-image: url("./images/Adjectifs.png");
+    width: 1049px;
+    height: 106px;
+    margin: auto;
+}
+
+/* My services */
+
+
+.services-block
+{
+    float: left;
+    width: 33%;
+}
+
+.services-block h5 
+{
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.services-block ul 
+{
+    margin: 0;
+    padding: 0;
+}
+
+.services-block ul li
+{
+    color: #ADC2AA;
+    text-align: center;
+}
+
+.visual-identity
+{
+    width: 119px;
+    height: 65px;
+    margin: auto;
+    background-image: url("./images/Identite_visuelle.png");
+}
+
+.edition-graphism
+{
+    width: 96px;
+    height: 82px;
+    margin: auto;
+    background-image: url("./images/Imprimante.png");
+}
+
+.web-design
+{
+    width: 120px;
+    height: 89px;
+    margin: auto;
+    background-image: url("./images/Pc.png");
+}
+
+.mywork
+{
+    background-image: url("./images/Mesrealisations.png");
+    width: 288px;
+    height: 60px;
+    margin: auto;
+}
+
+.contact label, input
+{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.contact input
+{
+    height: 40px;
+    border: white;
+}
